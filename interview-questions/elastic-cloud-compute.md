@@ -1,6 +1,8 @@
 ### 1. What is Amazon EC2?
 Amazon Elastic Compute Cloud (Amazon EC2) is a web service that provides resizable compute capacity in the cloud. It allows users to create, configure, and manage virtual servers (known as instances) in the AWS cloud.
 
+Amazon Elastic Compute Cloud (Amazon EC2) is a web service that provides resizable compute capacity in the cloud. It allows users to rent virtual servers on demand and scale your computing resources up or down based on your needs.
+
 ### 2. How does Amazon EC2 work?
 Amazon EC2 enables users to launch instances based on pre-configured Amazon Machine Images (AMIs). These instances run within virtual private clouds (VPCs) and can be configured with various resources like CPU, memory, storage, and networking.
 
