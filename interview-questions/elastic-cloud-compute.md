@@ -65,6 +65,43 @@ Amazon EC2 offers a wide range of instance types optimized for different use cas
 - Reserved Instances: Provides capacity reservation at a lower cost in exchange for a commitment.
 - Spot Instances: Allows users to bid on unused EC2 capacity, potentially leading to significantly lower costs.
 
+🔹 EC2 Pricing Models
+1. On-Demand Instances
+
+Pay-as-you-go (per second or hour).
+
+No upfront payment, no long-term commitment.
+
+Good for short-term, unpredictable workloads.
+
+Example: Running a server for a few hours to test an app.
+
+✅ Easy to remember → “On-Demand = Like booking a taxi when you need it.”
+
+2. Reserved Instances (RI)
+
+You reserve capacity for 1 or 3 years.
+
+Pay upfront, partial upfront, or monthly.
+
+Much cheaper (up to 75% discount) compared to on-demand.
+
+Best for predictable, steady workloads (like databases, production servers).
+
+✅ Easy to remember → “Reserved = Like buying a bus pass for a year — cheaper if you travel every day.”
+
+3. Spot Instances
+
+You bid for unused EC2 capacity.
+
+Up to 90% cheaper than on-demand.
+
+BUT: AWS can terminate them anytime if capacity is needed.
+
+Good for flexible, fault-tolerant workloads (big data, batch jobs, ML training, rendering).
+
+✅ Easy to remember → “Spot = Like grabbing a last-minute flight deal — cheap but can be canceled anytime.”
+
 ### 5. How can you improve the availability of EC2 instances?
 To improve availability, you can place instances in multiple Availability Zones (AZs) within a region. This helps ensure redundancy and fault tolerance.
 
