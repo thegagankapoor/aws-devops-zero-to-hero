@@ -13,6 +13,8 @@ Authentication is the process of verifying the identity of users or entities, wh
 ### 5. How can you secure your AWS account using IAM?
 You can secure your AWS account by enforcing the principle of least privilege, creating strong password policies, enabling multi-factor authentication (MFA), and regularly reviewing permissions.
 
+I will secure my AWS account by creating IAM policies for users or groups that enforce security best practices. For example, I will require MFA for all users, enforce a password policy that makes them change passwords every 60–90 days, and apply the principle of least privilege so that each user only has access to the resources they really need.
+
 ### 6. How do IAM users differ from IAM roles?
 IAM users are individuals or entities that have a fixed set of permissions associated with them. IAM roles are temporary credentials that can be assumed by users or AWS services to access resources.
 
