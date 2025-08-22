@@ -51,6 +51,12 @@ Save
 ### 14. What is the difference between synchronous and asynchronous invocation of Lambda functions?
 Synchronous invocations wait for the function to complete and return a response, while asynchronous invocations return immediately, and the response is sent to a specified destination.
 
+Simple Analogy:
+
+Synchronous = Like calling your friend and waiting on the phone until they answer your question.
+
+Asynchronous = Like sending your friend a WhatsApp message; they’ll reply later, but you don’t wait.
+
 ### 15. What is the AWS Lambda Event Source Mapping?
 Event Source Mapping allows you to connect event sources like Amazon DynamoDB streams or Amazon Kinesis streams to Lambda functions. This enables the function to process events as they occur.
 
