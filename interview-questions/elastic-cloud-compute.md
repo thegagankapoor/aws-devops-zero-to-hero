@@ -6,6 +6,8 @@ Amazon Elastic Compute Cloud (Amazon EC2) is a web service that provides resizab
 ### 2. How does Amazon EC2 work?
 Amazon EC2 enables users to launch instances based on pre-configured Amazon Machine Images (AMIs). These instances run within virtual private clouds (VPCs) and can be configured with various resources like CPU, memory, storage, and networking.
 
+It’s very simple, you just have to pass a few parameters. Firstly, you tell AWS which AMI you want to use. An AMI is a pre-configured template that contains the operating system and default configuration settings. Then you select the instance type, where you decide how much CPU and RAM your EC2 instance will have. After that, you choose the VPC, which is the network in which your instance will run. Next, you select a Security Group, which works like a firewall to control the traffic to your instance. You can also add storage based on your needs. After filling in all this information, your EC2 instance will be ready to use in just a few minutes.
+
 ### 3. What are the different instance types in EC2?
 Amazon EC2 offers a wide range of instance types optimized for different use cases, such as general-purpose, memory-optimized, compute-optimized, and GPU instances.
 
