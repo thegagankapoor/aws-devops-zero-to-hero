@@ -36,6 +36,17 @@ Lambda supports several runtimes, including Node.js, Python, Java, Go, Ruby, .NE
 
 ### 13. How can you configure environment variables for AWS Lambda functions?
 You can set environment variables for Lambda functions when creating or updating the function. These variables can be accessed within your code.
+AWS Lambda environment variables are key-value pairs that you can define for your Lambda function. Your code can then access them just like normal environment variables in any OS.
+
+From AWS Management Console
+
+Go to AWS Console → Lambda → Your Function
+
+Scroll to Environment variables section
+
+Add key-value pairs (e.g., DB_HOST=example.com, API_KEY=xyz123)
+
+Save
 
 ### 14. What is the difference between synchronous and asynchronous invocation of Lambda functions?
 Synchronous invocations wait for the function to complete and return a response, while asynchronous invocations return immediately, and the response is sent to a specified destination.
