@@ -63,7 +63,7 @@ Event Source Mapping allows you to connect event sources like Amazon DynamoDB st
 ### 16. How can you manage the permissions and execution roles for AWS Lambda functions?
 You can use AWS Identity and Access Management (IAM) roles to grant permissions to your Lambda functions. Execution roles define what AWS resources the function can access.
 
-Every Lambda function runs with an IAM role called the execution role.
+--Every Lambda function runs with an IAM role called the execution role.
 
 This role defines what AWS resources the Lambda can access.
 
