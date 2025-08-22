@@ -36,8 +36,8 @@ An IAM policy document defines the permissions and actions that are allowed or d
 ### 12. How can you grant permissions to an IAM user?
 You can grant permissions to an IAM user by attaching policies to the user directly or by adding the user to groups with associated policies.
 
-### 13. How can you delegate permissions to AWS services using IAM roles?
-IAM roles allow you to delegate permissions to AWS services like EC2 instances, Lambda functions, and more, without exposing long-term credentials.
+### 13. How can you give permissions to AWS services using IAM roles?
+IAM roles allow you to give permissions to AWS services like EC2 instances, Lambda functions, and more, without exposing long-term credentials.
 
 ### 14. What is cross-account access in AWS IAM?
 Cross-account access allows you to grant permissions to users or entities from one AWS account to access resources in another AWS account.
