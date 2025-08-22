@@ -39,6 +39,24 @@ You can grant permissions to an IAM user by attaching policies to the user direc
 ### 13. How can you give permissions to AWS services using IAM roles?
 IAM roles allow you to give permissions to AWS services like EC2 instances, Lambda functions, and more, without exposing long-term credentials.
 
+1. Create a Role
+
+Define which AWS service (e.g., EC2, Lambda, S3, etc.) can use this role.
+
+Attach policies (permissions) to the role, like S3ReadOnlyAccess or AmazonEC2FullAccess.
+
+2. Trust Policy (Who can assume the role?)
+
+You write a trust policy to specify which entity (a user, AWS account, or AWS service) can assume the role.
+
+Example: An EC2 instance can assume a role that lets it read/write to an S3 bucket.
+
+3. Temporary Security Credentials
+
+When the service (or user) assumes the role, AWS generates temporary credentials (valid for a short time).
+
+This removes the need for storing long-term access keys.
+
 ### 14. What is cross-account access in AWS IAM?
 Cross-account access allows you to grant permissions to users or entities from one AWS account to access resources in another AWS account.
 
