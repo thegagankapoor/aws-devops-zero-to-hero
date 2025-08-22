@@ -63,6 +63,12 @@ Event Source Mapping allows you to connect event sources like Amazon DynamoDB st
 ### 16. How can you manage the permissions and execution roles for AWS Lambda functions?
 You can use AWS Identity and Access Management (IAM) roles to grant permissions to your Lambda functions. Execution roles define what AWS resources the function can access.
 
+Every Lambda function runs with an IAM role called the execution role.
+
+This role defines what AWS resources the Lambda can access.
+
+Example: If your Lambda needs to read/write from an S3 bucket, attach a policy with s3:GetObject and s3:PutObject permissions to the role.
+
 ### 17. What is AWS Step Functions?
 AWS Step Functions is a serverless orchestration service that lets you coordinate multiple AWS services into serverless workflows using visual workflows called state machines.
 
